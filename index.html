@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelagem Computacional - Métodos Numéricos</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-calculator"></i>
+                <span>Métodos Numéricos</span>
+            </div>
+            <div class="nav-info">
+                <span class="team-info">Anderson, Lucas, Sabrina & Babinski</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <div class="header-icon">
+                <i class="fas fa-brain"></i>
+            </div>
+            <h1>Modelagem Computacional</h1>
+            <p class="subtitle">Escolha o método numérico que deseja utilizar</p>
+            <div class="header-decoration">
+                <div class="decoration-line"></div>
+                <i class="fas fa-cogs"></i>
+                <div class="decoration-line"></div>
+            </div>
+        </header>
+
+        <main>
+            <div class="card-container">
+                <!-- Card Cálculo de Raízes -->
+                <div class="card" data-method="roots">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-square-root-alt"></i>
+                        </div>
+                        <img src="images/root-finding.png" alt="Encontrar raízes" class="card-image">
+                    </div>
+                    <div class="card-content">
+                        <h2>Cálculo de Raízes de Funções</h2>
+                        <p class="card-description">Métodos de Falsa Posição e Newton-Raphson para encontrar raízes de equações não-lineares</p>
+                        
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Método da Falsa Posição (Regula-Falsi)</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Método de Newton-Raphson</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Visualização detalhada das iterações</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Interface matemática interativa</span>
+                            </div>
+                        </div>
+                        
+                        <a href="/numeric_calculator" class="btn btn-primary">
+                            <span>Acessar Sistema</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card Eliminação de Gauss -->
+                <div class="card" data-method="linear">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-table"></i>
+                        </div>
+                        <img src="images/linear-system.png" alt="Sistemas Lineares" class="card-image">
+                    </div>
+                    <div class="card-content">
+                        <h2>Resolução de Sistemas Lineares</h2>
+                        <p class="card-description">Método de Eliminação de Gauss com pivoteamento parcial para resolver sistemas de equações lineares</p>
+                        
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Eliminação Gaussiana com Pivoteamento</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Solução passo-a-passo detalhada</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Interface gráfica intuitiva</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Verificação automática da solução</span>
+                            </div>
+                        </div>
+                        
+                        <a href="/gauss_elimination" class="btn btn-primary">
+                            <span>Acessar Sistema</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Access Section -->
+            <section class="quick-access">
+                <h3><i class="fas fa-rocket"></i> Acesso Rápido</h3>
+                <div class="quick-buttons">
+                    <button class="quick-btn" onclick="window.location.href='/numeric_calculator'">
+                        <i class="fas fa-square-root-alt"></i>
+                        <span>Raízes</span>
+                    </button>
+                    <button class="quick-btn" onclick="window.location.href='/gauss_elimination'">
+                        <i class="fas fa-table"></i>
+                        <span>Sistemas</span>
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4><i class="fas fa-graduation-cap"></i> Trabalho Acadêmico</h4>
+                    <p>Modelagem Computacional</p>
+                    <p>Métodos Numéricos para Engenharia</p>
+                </div>
+                <div class="footer-section">
+                    <h4><i class="fas fa-users"></i> Equipe</h4>
+                    <p>Anderson Lima de Araújo Júnior</p>
+                    <p>Lucas, Sabrina e Babinski</p>
+                </div>
+                <div class="footer-section">
+                    <h4><i class="fas fa-calendar"></i> Ano</h4>
+                    <p>&copy; 2025</p>
+                    <p>Todos os direitos reservados</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay hidden">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <p>Carregando aplicação...</p>
+        </div>
+    </div>
+
+    <!-- JavaScript para melhorar a experiência -->
+    <script>
+        // Adicionar efeitos de hover e clique nos cards
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // Loading overlay para links
+        document.querySelectorAll('a[href^="/"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                document.getElementById('loadingOverlay').classList.remove('hidden');
+            });
+        });
+
+        // Animação de entrada dos elementos
+        window.addEventListener('load', function() {
+            document.querySelectorAll('.card').forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.2}s`;
+                card.classList.add('fade-in');
+            });
+        });
+    </script>
+</body>
+</html>

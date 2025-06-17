@@ -26,6 +26,15 @@ python3 main.py
 4. A página principal será aberta automaticamente no seu navegador
 5. Escolha o método desejado e comece a usar!
 
+## 🔧 Resolução de Problemas
+
+Se o CSS não estiver carregando corretamente, consulte o arquivo [TROUBLESHOOTING.md](TROUBLESHOOTING.md) para soluções detalhadas.
+
+### Problemas Comuns:
+- **CSS não carrega**: Verifique se ambos os servidores estão rodando (portas 8000 e 8080)
+- **Botão "Voltar" não funciona**: Limpe o cache do navegador ou force refresh (Ctrl+F5)
+- **Aplicação não abre**: Verifique se as portas não estão em uso por outros processos
+
 ## 🎯 Funcionalidades
 
 ### 🏠 Página Principal
